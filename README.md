@@ -1,4 +1,13 @@
-# Mega Menu Builder
+=== Mega Menu Builder ===
+Contributors: tossraj
+Tags: mega menu, menu builder, nav menu, custom menu, navigation
+Requires at least: 5.6
+Tested up to: 6.5
+Stable tag: 1.0.1
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+A React-powered drag-and-drop Visual Editor to easily design custom WordPress mega menus.
 
 [![WordPress Plugin](https://img.shields.io/badge/WordPress-Plugin-blue.svg)](https://wordpress.org/plugins/)
 [![GPLv2 Licensed](https://img.shields.io/badge/License-GPL%20v2%20or%20later-orange.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
