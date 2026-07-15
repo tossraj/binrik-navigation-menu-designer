@@ -7,7 +7,7 @@ A powerful, user-friendly WordPress plugin that enables you to design and displa
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **React-Powered Visual Editor**: Clean, responsive layout builder inside the WordPress administration dashboard.
 - **Dynamic Columns**: Drag-and-drop column grid system with automated padding and gap calculations.
@@ -21,7 +21,7 @@ A powerful, user-friendly WordPress plugin that enables you to design and displa
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1. **Download & Upload**:
    Download the plugin ZIP file and upload the `mega-menu-builder` folder to the `/wp-content/plugins/` directory of your WordPress site.
@@ -32,36 +32,7 @@ A powerful, user-friendly WordPress plugin that enables you to design and displa
 
 ---
 
-## 💻 Development & Building
-
-The visual editor interface is built using React 19 and compiled with webpack.
-
-### Prerequisites
-
-Make sure you have Node.js and npm installed on your system.
-
-### Build Instructions
-
-1. Navigate to the plugin directory:
-   ```bash
-   cd wp-content/plugins/mega-menu-builder
-   ```
-2. Install npm dependencies:
-   ```bash
-   npm install
-   ```
-3. Compile production-ready assets:
-   ```bash
-   npm run build
-   ```
-4. Or start the webpack development watcher:
-   ```bash
-   npm run dev
-   ```
-
----
-
-## 🔧 Database Settings Structure
+## Database Settings Structure
 
 Mega Menu Builder stores configuration objects in the `mmb_menus` option key in the `wp_options` table. Supported settings keys are:
 - `width`: Max-width (e.g. `100%`, `1200px`, `container`).
@@ -74,13 +45,13 @@ Mega Menu Builder stores configuration objects in the `mmb_menus` option key in 
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Shiv Singh**  
 GitHub: [@tossraj](https://github.com/tossraj)
 
 ---
 
-## 📄 License
+## License
 
 This plugin is open-source software licensed under the [GNU General Public License v2 or later](https://www.gnu.org/licenses/gpl-2.0.html).
