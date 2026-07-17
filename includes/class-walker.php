@@ -48,6 +48,7 @@ class Binrik_NMD_Walker extends Walker_Nav_Menu {
         $classes[] = 'binrik-nmd-position-' . $pos;
         $class_str = implode( ' ', array_filter( array_map( 'esc_attr', $classes ) ) );
 
+        // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- Using core WordPress hook.
         $title = apply_filters( 'the_title', $data_object->title, $data_object->ID );
         $url   = esc_url( $data_object->url );
 
@@ -184,6 +185,7 @@ class Binrik_NMD_Walker extends Walker_Nav_Menu {
                         $post = $post_obj;
                         setup_postdata( $post );
                         
+                        // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- Using core WordPress hook.
                         $content = apply_filters( 'the_content', get_post_field( 'post_content', $page_id ) );
                         $html .= '<div class="binrik-nmd-dynamic-page-content">' . $content . '</div>';
                         
